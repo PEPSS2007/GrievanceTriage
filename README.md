@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GrievanceTriage — Municipal Grievance Triage & Resolution Platform
 
 **GrievanceTriage** is an AI-assisted municipal grievance intake, automated triage, and verified resolution platform engineered for municipal corporations, urban local bodies, and public works administrations.
@@ -169,3 +170,6 @@ Detailed performance and category accuracy metrics are documented in `BENCHMARK.
 
 ## License
 Proprietary — Engineered for municipal grievance management and public service triage.
+=======
+# GrievanceTriage
+>>>>>>> abdb6549e8f4841ac3f3b5fd50ce8964059a7333
