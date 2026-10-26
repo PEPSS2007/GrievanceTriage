@@ -1,0 +1,1023 @@
+{
+  "version": "1.0.0",
+  "jurisdiction": "City of Metroville Municipal Corporation",
+  "departments": [
+    {
+      "id": "dept_roads",
+      "name": "Roads, Bridges & Footpaths Department",
+      "categories": [
+        "Roads & Footpaths",
+        "Potholes & Pavements",
+        "Bridges & Overpasses"
+      ],
+      "email": "roads@metroville.gov.synthetic",
+      "phone": "+1-555-0101",
+      "website": "https://roads.metroville.gov.synthetic",
+      "portal": "https://portal.metroville.gov.synthetic/roads",
+      "escalation_contact": "Chief Engineer (Infrastructure) - Eng. R. Vance",
+      "sla_hours": 48,
+      "is_demo": true,
+      "ward_contacts": {
+        "Ward 1": {
+          "ward": "Ward 1",
+          "zone": "North Zone (Civic Center)",
+          "officer_name": "Vikram Sethi",
+          "role": "Roads & Infrastructure Engineer (Ward 1)",
+          "phone": "+1-555-0101",
+          "email": "roads.ward1@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North Zone (Civic Center) - Ward 1",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 2": {
+          "ward": "Ward 2",
+          "zone": "North-East Zone (Heights)",
+          "officer_name": "Preeti Mehra",
+          "role": "Roads & Infrastructure Engineer (Ward 2)",
+          "phone": "+1-555-0102",
+          "email": "roads.ward2@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North-East Zone (Heights) - Ward 2",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 3": {
+          "ward": "Ward 3",
+          "zone": "East Zone (Commercial Old Town)",
+          "officer_name": "Marcus Bell",
+          "role": "Roads & Infrastructure Engineer (Ward 3)",
+          "phone": "+1-555-0103",
+          "email": "roads.ward3@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - East Zone (Commercial Old Town) - Ward 3",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 4": {
+          "ward": "Ward 4",
+          "zone": "Central Zone (Pine & Market)",
+          "officer_name": "Anita Roy",
+          "role": "Roads & Infrastructure Engineer (Ward 4)",
+          "phone": "+1-555-0104",
+          "email": "roads.ward4@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - Central Zone (Pine & Market) - Ward 4",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 5": {
+          "ward": "Ward 5",
+          "zone": "South-West Zone (University)",
+          "officer_name": "Deepak Verma",
+          "role": "Roads & Infrastructure Engineer (Ward 5)",
+          "phone": "+1-555-0105",
+          "email": "roads.ward5@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-West Zone (University) - Ward 5",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 6": {
+          "ward": "Ward 6",
+          "zone": "South Zone (Industrial Ring)",
+          "officer_name": "Chloe Tremblay",
+          "role": "Roads & Infrastructure Engineer (Ward 6)",
+          "phone": "+1-555-0106",
+          "email": "roads.ward6@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South Zone (Industrial Ring) - Ward 6",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 7": {
+          "ward": "Ward 7",
+          "zone": "South-East Zone (Terminal Hub)",
+          "officer_name": "Suresh Nair",
+          "role": "Roads & Infrastructure Engineer (Ward 7)",
+          "phone": "+1-555-0107",
+          "email": "roads.ward7@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-East Zone (Terminal Hub) - Ward 7",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 8": {
+          "ward": "Ward 8",
+          "zone": "West Zone (Greenfield Suburbs)",
+          "officer_name": "Sarah Lin",
+          "role": "Roads & Infrastructure Engineer (Ward 8)",
+          "phone": "+1-555-0108",
+          "email": "roads.ward8@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - West Zone (Greenfield Suburbs) - Ward 8",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        }
+      }
+    },
+    {
+      "id": "dept_water",
+      "name": "Water Supply & Sewage Operations",
+      "categories": [
+        "Water Supply",
+        "Sewage & Drainage",
+        "Water Contamination",
+        "Pipeline Leaks"
+      ],
+      "email": "water@metroville.gov.synthetic",
+      "phone": "+1-555-0102",
+      "website": "https://water.metroville.gov.synthetic",
+      "portal": "https://portal.metroville.gov.synthetic/water",
+      "escalation_contact": "Superintendent of Water Works - Dr. H. Kaur",
+      "sla_hours": 24,
+      "is_demo": true,
+      "ward_contacts": {
+        "Ward 1": {
+          "ward": "Ward 1",
+          "zone": "North Zone (Civic Center)",
+          "officer_name": "R. Nair",
+          "role": "Water Works & Sewerage Officer (Ward 1)",
+          "phone": "+1-555-0101",
+          "email": "water.ward1@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North Zone (Civic Center) - Ward 1",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 2": {
+          "ward": "Ward 2",
+          "zone": "North-East Zone (Heights)",
+          "officer_name": "Fatima Zahra",
+          "role": "Water Works & Sewerage Officer (Ward 2)",
+          "phone": "+1-555-0102",
+          "email": "water.ward2@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North-East Zone (Heights) - Ward 2",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 3": {
+          "ward": "Ward 3",
+          "zone": "East Zone (Commercial Old Town)",
+          "officer_name": "David Kim",
+          "role": "Water Works & Sewerage Officer (Ward 3)",
+          "phone": "+1-555-0103",
+          "email": "water.ward3@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - East Zone (Commercial Old Town) - Ward 3",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 4": {
+          "ward": "Ward 4",
+          "zone": "Central Zone (Pine & Market)",
+          "officer_name": "Sarah Jenkins",
+          "role": "Water Works & Sewerage Officer (Ward 4)",
+          "phone": "+1-555-0104",
+          "email": "water.ward4@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - Central Zone (Pine & Market) - Ward 4",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 5": {
+          "ward": "Ward 5",
+          "zone": "South-West Zone (University)",
+          "officer_name": "Alok Pandey",
+          "role": "Water Works & Sewerage Officer (Ward 5)",
+          "phone": "+1-555-0105",
+          "email": "water.ward5@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-West Zone (University) - Ward 5",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 6": {
+          "ward": "Ward 6",
+          "zone": "South Zone (Industrial Ring)",
+          "officer_name": "Elena Vance",
+          "role": "Water Works & Sewerage Officer (Ward 6)",
+          "phone": "+1-555-0106",
+          "email": "water.ward6@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South Zone (Industrial Ring) - Ward 6",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 7": {
+          "ward": "Ward 7",
+          "zone": "South-East Zone (Terminal Hub)",
+          "officer_name": "Gopal Krishnan",
+          "role": "Water Works & Sewerage Officer (Ward 7)",
+          "phone": "+1-555-0107",
+          "email": "water.ward7@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-East Zone (Terminal Hub) - Ward 7",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 8": {
+          "ward": "Ward 8",
+          "zone": "West Zone (Greenfield Suburbs)",
+          "officer_name": "Maya Joshi",
+          "role": "Water Works & Sewerage Officer (Ward 8)",
+          "phone": "+1-555-0108",
+          "email": "water.ward8@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - West Zone (Greenfield Suburbs) - Ward 8",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        }
+      }
+    },
+    {
+      "id": "dept_sanitation",
+      "name": "Solid Waste Management & Sanitation",
+      "categories": [
+        "Sanitation & Waste",
+        "Garbage Collection",
+        "Illegal Dumping",
+        "Public Toilets"
+      ],
+      "email": "sanitation@metroville.gov.synthetic",
+      "phone": "+1-555-0103",
+      "website": "https://clean.metroville.gov.synthetic",
+      "portal": "https://portal.metroville.gov.synthetic/sanitation",
+      "escalation_contact": "Director of Public Cleanliness - M. Alvarez",
+      "sla_hours": 24,
+      "is_demo": true,
+      "ward_contacts": {
+        "Ward 1": {
+          "ward": "Ward 1",
+          "zone": "North Zone (Civic Center)",
+          "officer_name": "M. Alvarez",
+          "role": "Sanitation & Solid Waste Lead (Ward 1)",
+          "phone": "+1-555-0101",
+          "email": "sanitation.ward1@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North Zone (Civic Center) - Ward 1",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 2": {
+          "ward": "Ward 2",
+          "zone": "North-East Zone (Heights)",
+          "officer_name": "Sunita Rao",
+          "role": "Sanitation & Solid Waste Lead (Ward 2)",
+          "phone": "+1-555-0102",
+          "email": "sanitation.ward2@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North-East Zone (Heights) - Ward 2",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 3": {
+          "ward": "Ward 3",
+          "zone": "East Zone (Commercial Old Town)",
+          "officer_name": "Kenji Sato",
+          "role": "Sanitation & Solid Waste Lead (Ward 3)",
+          "phone": "+1-555-0103",
+          "email": "sanitation.ward3@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - East Zone (Commercial Old Town) - Ward 3",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 4": {
+          "ward": "Ward 4",
+          "zone": "Central Zone (Pine & Market)",
+          "officer_name": "Amir Khan",
+          "role": "Sanitation & Solid Waste Lead (Ward 4)",
+          "phone": "+1-555-0104",
+          "email": "sanitation.ward4@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - Central Zone (Pine & Market) - Ward 4",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 5": {
+          "ward": "Ward 5",
+          "zone": "South-West Zone (University)",
+          "officer_name": "Rachel Green",
+          "role": "Sanitation & Solid Waste Lead (Ward 5)",
+          "phone": "+1-555-0105",
+          "email": "sanitation.ward5@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-West Zone (University) - Ward 5",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 6": {
+          "ward": "Ward 6",
+          "zone": "South Zone (Industrial Ring)",
+          "officer_name": "Carlos Mendez",
+          "role": "Sanitation & Solid Waste Lead (Ward 6)",
+          "phone": "+1-555-0106",
+          "email": "sanitation.ward6@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South Zone (Industrial Ring) - Ward 6",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 7": {
+          "ward": "Ward 7",
+          "zone": "South-East Zone (Terminal Hub)",
+          "officer_name": "Pooja Hegde",
+          "role": "Sanitation & Solid Waste Lead (Ward 7)",
+          "phone": "+1-555-0107",
+          "email": "sanitation.ward7@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-East Zone (Terminal Hub) - Ward 7",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 8": {
+          "ward": "Ward 8",
+          "zone": "West Zone (Greenfield Suburbs)",
+          "officer_name": "Liam O'Connor",
+          "role": "Sanitation & Solid Waste Lead (Ward 8)",
+          "phone": "+1-555-0108",
+          "email": "sanitation.ward8@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - West Zone (Greenfield Suburbs) - Ward 8",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        }
+      }
+    },
+    {
+      "id": "dept_electricity",
+      "name": "Public Lighting & Electrical Utilities",
+      "categories": [
+        "Street Lighting & Electricity",
+        "Exposed Wires",
+        "Traffic Signals"
+      ],
+      "email": "lighting@metroville.gov.synthetic",
+      "phone": "+1-555-0104",
+      "website": "https://power.metroville.gov.synthetic",
+      "portal": "https://portal.metroville.gov.synthetic/power",
+      "escalation_contact": "Chief Electrical Inspector - P. Chen",
+      "sla_hours": 12,
+      "is_demo": true,
+      "ward_contacts": {
+        "Ward 1": {
+          "ward": "Ward 1",
+          "zone": "North Zone (Civic Center)",
+          "officer_name": "P. Chen",
+          "role": "Electrical & Lighting Inspector (Ward 1)",
+          "phone": "+1-555-0101",
+          "email": "power.ward1@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North Zone (Civic Center) - Ward 1",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 2": {
+          "ward": "Ward 2",
+          "zone": "North-East Zone (Heights)",
+          "officer_name": "Anil Deshmukh",
+          "role": "Electrical & Lighting Inspector (Ward 2)",
+          "phone": "+1-555-0102",
+          "email": "power.ward2@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North-East Zone (Heights) - Ward 2",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 3": {
+          "ward": "Ward 3",
+          "zone": "East Zone (Commercial Old Town)",
+          "officer_name": "Grace Hopper",
+          "role": "Electrical & Lighting Inspector (Ward 3)",
+          "phone": "+1-555-0103",
+          "email": "power.ward3@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - East Zone (Commercial Old Town) - Ward 3",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 4": {
+          "ward": "Ward 4",
+          "zone": "Central Zone (Pine & Market)",
+          "officer_name": "Kavita Iyer",
+          "role": "Electrical & Lighting Inspector (Ward 4)",
+          "phone": "+1-555-0104",
+          "email": "power.ward4@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - Central Zone (Pine & Market) - Ward 4",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 5": {
+          "ward": "Ward 5",
+          "zone": "South-West Zone (University)",
+          "officer_name": "Simon Peter",
+          "role": "Electrical & Lighting Inspector (Ward 5)",
+          "phone": "+1-555-0105",
+          "email": "power.ward5@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-West Zone (University) - Ward 5",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 6": {
+          "ward": "Ward 6",
+          "zone": "South Zone (Industrial Ring)",
+          "officer_name": "Zainab Qureshi",
+          "role": "Electrical & Lighting Inspector (Ward 6)",
+          "phone": "+1-555-0106",
+          "email": "power.ward6@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South Zone (Industrial Ring) - Ward 6",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 7": {
+          "ward": "Ward 7",
+          "zone": "South-East Zone (Terminal Hub)",
+          "officer_name": "Harish Patel",
+          "role": "Electrical & Lighting Inspector (Ward 7)",
+          "phone": "+1-555-0107",
+          "email": "power.ward7@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-East Zone (Terminal Hub) - Ward 7",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 8": {
+          "ward": "Ward 8",
+          "zone": "West Zone (Greenfield Suburbs)",
+          "officer_name": "Noah Scott",
+          "role": "Electrical & Lighting Inspector (Ward 8)",
+          "phone": "+1-555-0108",
+          "email": "power.ward8@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - West Zone (Greenfield Suburbs) - Ward 8",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        }
+      }
+    },
+    {
+      "id": "dept_health",
+      "name": "Public Health & Vector Control",
+      "categories": [
+        "Public Health",
+        "Mosquito Breeding",
+        "Stray Animals",
+        "Food Safety"
+      ],
+      "email": "health@metroville.gov.synthetic",
+      "phone": "+1-555-0105",
+      "website": "https://health.metroville.gov.synthetic",
+      "portal": "https://portal.metroville.gov.synthetic/health",
+      "escalation_contact": "Chief Medical Officer - Dr. S. Rao",
+      "sla_hours": 36,
+      "is_demo": true,
+      "ward_contacts": {
+        "Ward 1": {
+          "ward": "Ward 1",
+          "zone": "North Zone (Civic Center)",
+          "officer_name": "Dr. S. Rao",
+          "role": "Public Health & Vector Officer (Ward 1)",
+          "phone": "+1-555-0101",
+          "email": "health.ward1@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North Zone (Civic Center) - Ward 1",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 2": {
+          "ward": "Ward 2",
+          "zone": "North-East Zone (Heights)",
+          "officer_name": "Dr. Lisa Kudrow",
+          "role": "Public Health & Vector Officer (Ward 2)",
+          "phone": "+1-555-0102",
+          "email": "health.ward2@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North-East Zone (Heights) - Ward 2",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 3": {
+          "ward": "Ward 3",
+          "zone": "East Zone (Commercial Old Town)",
+          "officer_name": "Dr. Manoj Bajpayee",
+          "role": "Public Health & Vector Officer (Ward 3)",
+          "phone": "+1-555-0103",
+          "email": "health.ward3@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - East Zone (Commercial Old Town) - Ward 3",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 4": {
+          "ward": "Ward 4",
+          "zone": "Central Zone (Pine & Market)",
+          "officer_name": "Dr. Meenakshi Sundaram",
+          "role": "Public Health & Vector Officer (Ward 4)",
+          "phone": "+1-555-0104",
+          "email": "health.ward4@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - Central Zone (Pine & Market) - Ward 4",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 5": {
+          "ward": "Ward 5",
+          "zone": "South-West Zone (University)",
+          "officer_name": "Dr. Tariq Jamil",
+          "role": "Public Health & Vector Officer (Ward 5)",
+          "phone": "+1-555-0105",
+          "email": "health.ward5@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-West Zone (University) - Ward 5",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 6": {
+          "ward": "Ward 6",
+          "zone": "South Zone (Industrial Ring)",
+          "officer_name": "Dr. Angela Rossi",
+          "role": "Public Health & Vector Officer (Ward 6)",
+          "phone": "+1-555-0106",
+          "email": "health.ward6@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South Zone (Industrial Ring) - Ward 6",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 7": {
+          "ward": "Ward 7",
+          "zone": "South-East Zone (Terminal Hub)",
+          "officer_name": "Dr. V. Kurien",
+          "role": "Public Health & Vector Officer (Ward 7)",
+          "phone": "+1-555-0107",
+          "email": "health.ward7@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-East Zone (Terminal Hub) - Ward 7",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 8": {
+          "ward": "Ward 8",
+          "zone": "West Zone (Greenfield Suburbs)",
+          "officer_name": "Dr. Emily Blunt",
+          "role": "Public Health & Vector Officer (Ward 8)",
+          "phone": "+1-555-0108",
+          "email": "health.ward8@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - West Zone (Greenfield Suburbs) - Ward 8",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        }
+      }
+    },
+    {
+      "id": "dept_parks",
+      "name": "Parks, Recreation & Horticulture",
+      "categories": [
+        "Public Parks & Trees",
+        "Fallen Trees",
+        "Park Maintenance"
+      ],
+      "email": "parks@metroville.gov.synthetic",
+      "phone": "+1-555-0106",
+      "website": "https://parks.metroville.gov.synthetic",
+      "portal": "https://portal.metroville.gov.synthetic/parks",
+      "escalation_contact": "Superintendent of Gardens - E. Morales",
+      "sla_hours": 72,
+      "is_demo": true,
+      "ward_contacts": {
+        "Ward 1": {
+          "ward": "Ward 1",
+          "zone": "North Zone (Civic Center)",
+          "officer_name": "E. Morales",
+          "role": "Horticulture & Arboriculture Lead (Ward 1)",
+          "phone": "+1-555-0101",
+          "email": "parks.ward1@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North Zone (Civic Center) - Ward 1",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 2": {
+          "ward": "Ward 2",
+          "zone": "North-East Zone (Heights)",
+          "officer_name": "Karthik Raja",
+          "role": "Horticulture & Arboriculture Lead (Ward 2)",
+          "phone": "+1-555-0102",
+          "email": "parks.ward2@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - North-East Zone (Heights) - Ward 2",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 3": {
+          "ward": "Ward 3",
+          "zone": "East Zone (Commercial Old Town)",
+          "officer_name": "Flora MacDonald",
+          "role": "Horticulture & Arboriculture Lead (Ward 3)",
+          "phone": "+1-555-0103",
+          "email": "parks.ward3@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - East Zone (Commercial Old Town) - Ward 3",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 4": {
+          "ward": "Ward 4",
+          "zone": "Central Zone (Pine & Market)",
+          "officer_name": "Bhaskar Roy",
+          "role": "Horticulture & Arboriculture Lead (Ward 4)",
+          "phone": "+1-555-0104",
+          "email": "parks.ward4@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - Central Zone (Pine & Market) - Ward 4",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 5": {
+          "ward": "Ward 5",
+          "zone": "South-West Zone (University)",
+          "officer_name": "Olga Smirnova",
+          "role": "Horticulture & Arboriculture Lead (Ward 5)",
+          "phone": "+1-555-0105",
+          "email": "parks.ward5@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-West Zone (University) - Ward 5",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 6": {
+          "ward": "Ward 6",
+          "zone": "South Zone (Industrial Ring)",
+          "officer_name": "Tenzing Norgay",
+          "role": "Horticulture & Arboriculture Lead (Ward 6)",
+          "phone": "+1-555-0106",
+          "email": "parks.ward6@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South Zone (Industrial Ring) - Ward 6",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 7": {
+          "ward": "Ward 7",
+          "zone": "South-East Zone (Terminal Hub)",
+          "officer_name": "Vandana Shiva",
+          "role": "Horticulture & Arboriculture Lead (Ward 7)",
+          "phone": "+1-555-0107",
+          "email": "parks.ward7@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - South-East Zone (Terminal Hub) - Ward 7",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        },
+        "Ward 8": {
+          "ward": "Ward 8",
+          "zone": "West Zone (Greenfield Suburbs)",
+          "officer_name": "Arthur Pendelton",
+          "role": "Horticulture & Arboriculture Lead (Ward 8)",
+          "phone": "+1-555-0108",
+          "email": "parks.ward8@metroville.gov.synthetic",
+          "jurisdiction": "Metroville Municipal Corporation - West Zone (Greenfield Suburbs) - Ward 8",
+          "verification_status": "verified",
+          "last_verified": "2026-03-20",
+          "source": "Official Metroville Municipal Directory 2026 (Demo Gazette Model)"
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "Roads & Footpaths",
+      "department_id": "dept_roads",
+      "keywords": [
+        "pothole",
+        "asphalt",
+        "crater",
+        "footpath",
+        "sidewalk",
+        "curb",
+        "road surface",
+        "speed bump",
+        "pavement",
+        "repaving",
+        "sinking",
+        "driveway",
+        "bypass",
+        "expressway"
+      ]
+    },
+    {
+      "name": "Water Supply & Sewage",
+      "department_id": "dept_water",
+      "keywords": [
+        "water leak",
+        "burst pipe",
+        "burst main",
+        "no water",
+        "low pressure",
+        "trickle",
+        "muddy water",
+        "tap water",
+        "pipeline",
+        "sewage",
+        "drain overflow",
+        "dirty tap",
+        "water supply",
+        "manhole",
+        "valve chamber",
+        "stormwater"
+      ]
+    },
+    {
+      "name": "Sanitation & Waste",
+      "department_id": "dept_sanitation",
+      "keywords": [
+        "garbage",
+        "trash",
+        "rubbish",
+        "dumping",
+        "waste bin",
+        "litter",
+        "litter bin",
+        "dumpster",
+        "rotting",
+        "foul smell",
+        "debris",
+        "fly tipping",
+        "sanitation truck",
+        "drywall",
+        "waste pickup"
+      ]
+    },
+    {
+      "name": "Street Lighting & Electricity",
+      "department_id": "dept_electricity",
+      "keywords": [
+        "streetlight",
+        "lamp post",
+        "streetlamp",
+        "dark road",
+        "exposed wire",
+        "hanging cable",
+        "blackout",
+        "sparking",
+        "pole",
+        "pedestrian signal",
+        "traffic signal",
+        "transformer",
+        "power line"
+      ]
+    },
+    {
+      "name": "Public Health & Vector Control",
+      "department_id": "dept_health",
+      "keywords": [
+        "mosquito",
+        "stagnant water",
+        "dengue",
+        "larvae",
+        "stray dog",
+        "stray dogs",
+        "food stall",
+        "rat infestation",
+        "rodent",
+        "sanitation inspection",
+        "vector"
+      ]
+    },
+    {
+      "name": "Public Parks & Trees",
+      "department_id": "dept_parks",
+      "keywords": [
+        "fallen branch",
+        "fallen tree",
+        "tree limb",
+        "tree branch",
+        "overgrown bush",
+        "bushes",
+        "park playground",
+        "playground",
+        "swing broken",
+        "broken swing",
+        "tree trimming",
+        "botanical",
+        "sprinkler",
+        "park lawn",
+        "park edge"
+      ]
+    }
+  ],
+  "priority_rules": [
+    {
+      "id": "rule_exposed_wire",
+      "name": "High Voltage Safety Hazard",
+      "keywords": [
+        "exposed wire",
+        "live wire",
+        "sparking wire",
+        "hanging cable",
+        "electric shock risk",
+        "dangling electrical",
+        "snapped overhead power line"
+      ],
+      "forced_priority": "Urgent",
+      "weight": 10,
+      "reason": "Exposed or sparking electrical wires present an immediate threat of lethal electrocution."
+    },
+    {
+      "id": "rule_open_manhole",
+      "name": "Open Manhole / Pedestrian Trap",
+      "keywords": [
+        "open manhole",
+        "missing manhole cover",
+        "uncovered drain",
+        "sewer pit open",
+        "open sewer manhole"
+      ],
+      "forced_priority": "Urgent",
+      "weight": 9,
+      "reason": "Open manhole or sewer pit poses an immediate risk of fatal falls for pedestrians and two-wheelers."
+    },
+    {
+      "id": "rule_water_contamination",
+      "name": "Contaminated Drinking Water",
+      "keywords": [
+        "brown water",
+        "smells like sewage",
+        "black water from tap",
+        "sick from water",
+        "water contamination",
+        "muddy water"
+      ],
+      "forced_priority": "Urgent",
+      "weight": 8,
+      "reason": "Suspected potable water contamination poses widespread community biological health hazard."
+    },
+    {
+      "id": "rule_school_hospital_proximity",
+      "name": "Sensitive Public Facility Proximity",
+      "keywords": [
+        "school gate",
+        "school entrance",
+        "elementary school",
+        "hospital entrance",
+        "pediatric clinic",
+        "kindergarten",
+        "elderly care",
+        "playground bench",
+        "children playground"
+      ],
+      "forced_priority": "High",
+      "weight": 6,
+      "reason": "Hazard located in an immediate high-vulnerability zone with children, patients, or elderly pedestrians."
+    },
+    {
+      "id": "rule_arterial_road_block",
+      "name": "Arterial Road Blockage",
+      "keywords": [
+        "blocking main road",
+        "arterial road blocked",
+        "traffic completely stopped",
+        "highway entrance blocked",
+        "fallen tree blocking",
+        "leaning at a dangerous",
+        "pedestrian signal at busy crossing is stuck on red"
+      ],
+      "forced_priority": "High",
+      "weight": 5,
+      "reason": "Obstruction halts critical traffic arteries and emergency vehicle access."
+    },
+    {
+      "id": "rule_stagnant_mosquito_pool",
+      "name": "Vector Breeding Risk",
+      "keywords": [
+        "stagnant water pool",
+        "mosquito swarm",
+        "dengue outbreak",
+        "breeding ground",
+        "mosquito breeding"
+      ],
+      "forced_priority": "Medium",
+      "weight": 3,
+      "reason": "Standing water creates public health disease vector conditions."
+    }
+  ],
+  "status_lifecycle": {
+    "allowed_transitions": {
+      "Submitted": [
+        "Under Review",
+        "Pending Review"
+      ],
+      "Under Review": [
+        "Approved",
+        "Needs More Information",
+        "Rejected",
+        "Assigned",
+        "Resolution Submitted",
+        "Verification Pending"
+      ],
+      "Pending Review": [
+        "Approved",
+        "Needs More Information",
+        "Rejected",
+        "Under Review",
+        "Resolution Submitted",
+        "Verification Pending"
+      ],
+      "Approved": [
+        "Contact Prepared",
+        "Contact Initiated",
+        "Assigned",
+        "In Progress"
+      ],
+      "Contact Prepared": [
+        "Contact Initiated",
+        "Approved"
+      ],
+      "Contact Initiated": [
+        "Acknowledged",
+        "Escalated",
+        "Resolved",
+        "In Progress",
+        "Resolution Submitted"
+      ],
+      "Acknowledged": [
+        "Resolved",
+        "Escalated",
+        "In Progress",
+        "Resolution Submitted",
+        "Verification Pending"
+      ],
+      "Assigned": [
+        "In Progress",
+        "Needs More Information",
+        "Escalated"
+      ],
+      "In Progress": [
+        "Resolution Submitted",
+        "Verification Pending",
+        "Needs More Information",
+        "Escalated"
+      ],
+      "Needs More Information": [
+        "Pending Review",
+        "Under Review",
+        "In Progress"
+      ],
+      "Resolution Submitted": [
+        "Verification Pending",
+        "Rejected — Further Action Required",
+        "Verified Resolved",
+        "Resolved",
+        "In Progress",
+        "Reopened"
+      ],
+      "Verification Pending": [
+        "Verified Resolved",
+        "Resolved",
+        "Rejected — Further Action Required",
+        "In Progress",
+        "Reopened"
+      ],
+      "Verified Resolved": [
+        "Reopened"
+      ],
+      "Rejected — Further Action Required": [
+        "In Progress",
+        "Under Review",
+        "Assigned",
+        "Reopened"
+      ],
+      "Open / Under Review": [
+        "Under Review",
+        "Assigned",
+        "In Progress",
+        "Approved",
+        "Rejected"
+      ],
+      "Escalated": [
+        "Acknowledged",
+        "Resolved",
+        "Verified Resolved",
+        "Resolution Submitted",
+        "Verification Pending"
+      ],
+      "Resolved": [
+        "Reopened"
+      ],
+      "Reopened": [
+        "Under Review",
+        "In Progress",
+        "Assigned"
+      ],
+      "Rejected": [
+        "Under Review"
+      ]
+    }
+  }
+}
